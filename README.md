@@ -20,8 +20,9 @@ dependencies:
 **github**
 ```yaml
 dependencies:
-  git:
-    url: https://github.com/scadasystems/easy_icon_pack.git
+  easy_icon_pack:
+    git:
+      url: https://github.com/scadasystems/easy_icon_pack.git
 ```
 
 그리고 패키지를 가져오세요:
