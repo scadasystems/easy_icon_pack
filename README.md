@@ -39,6 +39,17 @@ flutter pub get
 import 'package:easy_icon_pack/easy_icon_pack.dart';
 ```
 
+### Lucide Icons
+
+```dart
+Icon(LucideIcons.home)
+```
+
+### HugeIcons
+
+```dart
+Icon(HugeIcons.home)
+```
 
 ## 📊 아이콘 통계
 
