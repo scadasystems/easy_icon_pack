@@ -4,10 +4,15 @@ void main() {
   // 1. 시스템의 pub-cache 경로 확인
   final env = Platform.environment;
   final pubCache =
-      env['PUB_CACHE'] ?? (Platform.isWindows ? '${env['LOCALAPPDATA']}\\Pub\\Cache' : '${env['HOME']}/.pub-cache');
+      env['PUB_CACHE'] ??
+      (Platform.isWindows
+          ? '${env['LOCALAPPDATA']}\\Pub\\Cache'
+          : '${env['HOME']}/.pub-cache');
 
   // 2. 다운로드 된 lucide_icons_flutter-3.1.12 패키지 경로 지정
-  final packageDir = Directory('$pubCache/hosted/pub.dev/lucide_icons_flutter-3.1.12');
+  final packageDir = Directory(
+    '$pubCache/hosted/pub.dev/lucide_icons_flutter-3.1.14+1',
+  );
   final iconFile = File('${packageDir.path}/lib/lucide_icons.dart');
 
   if (!iconFile.existsSync()) {

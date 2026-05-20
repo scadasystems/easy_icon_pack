@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  lucide_icons_flutter: 3.1.12
+  lucide_icons_flutter: 3.1.14+1
   hugeicons: ^0.0.11
 
 dev_dependencies:
@@ -19,7 +19,4 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^5.0.0
 
-
 flutter:
-
-
